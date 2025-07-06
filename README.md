@@ -1,4 +1,7 @@
-## Hi, I'm Kabir 
+# Hi, I'm Kabir 
+school
+skills
+courses
 
 
 # 💻 Tech Stack:
