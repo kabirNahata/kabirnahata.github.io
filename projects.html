@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kabir Nahata's projects — Building to learn, learning to build.">
+    <title>Projects — Kabir Nahata</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container wide">
+            <div class="logo">Kabir Nahata</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog/index.html">Journal</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="now.html">Now</a></li>
+                <li><a href="struggling.html">Struggling</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to home</a>
+            
+            <h1>Projects</h1>
+            
+            <div class="now-intro">
+                <p>
+                    This isn't a portfolio of polished work—it's a learning timeline. Every project here taught me something, 
+                    even the ones that didn't turn out how I hoped. Some are finished. Some are abandoned. All of them 
+                    represent progress.
+                </p>
+                <p>
+                    I'm focusing on <strong>what I learned</strong> more than what I built, because that's what actually matters.
+                </p>
+            </div>
+
+            <section>
+                <div class="project">
+                    <div class="project-header">
+                        <h2 class="project-title">Learning Journal (This Site)</h2>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Static Site</span>
+                            <span class="tag">Markdown</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                    
+                    <p>
+                        A complete redesign of my personal website into a calm, reflective learning journal. Built from scratch 
+                        with vanilla HTML and CSS, plus a custom markdown-to-HTML build script for blog posts.
+                    </p>
+                    
+                    <h3>What I learned</h3>
+                    <ul>
+                        <li><strong>CSS layouts:</strong> Finally understood flexbox and CSS custom properties. Stopped fighting the cascade.</li>
+                        <li><strong>Design thinking:</strong> Typography-first design, whitespace, color theory. Learned to design for reading, not just looking nice.</li>
+                        <li><strong>Static site generation:</strong> Built my own markdown parser to understand how tools like Jekyll work under the hood.</li>
+                        <li><strong>Writing:</strong> Forcing myself to write honestly and reflectively. Harder than writing code.</li>
+                    </ul>
+                    
+                    <div class="reflection">
+                        <p>
+                            <strong>Biggest struggle:</strong> Resisting the urge to add complexity. I kept wanting to use React, 
+                            add animations, build a CMS. But the constraint of "just HTML/CSS" forced me to focus on content and 
+                            simplicity. Sometimes less is actually more.
+                        </p>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/kabirNahata/kabirnahata.github.io" target="_blank" class="project-link">View source →</a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-header">
+                        <h2 class="project-title">Habit Tracker CLI</h2>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">CLI</span>
+                        </div>
+                    </div>
+                    
+                    <p>
+                        A command-line habit tracking app built for my CS50 final project. Add habits, log progress, view streaks, 
+                        and generate simple reports—all from the terminal. No web interface, no fancy UI, just functional code.
+                    </p>
+                    
+                    <h3>What I learned</h3>
+                    <ul>
+                        <li><strong>Database design:</strong> Normalized tables, foreign keys, queries with JOINs. SQL finally clicked.</li>
+                        <li><strong>CLI best practices:</strong> Argument parsing, error handling, user feedback. Making a CLI that doesn't feel janky.</li>
+                        <li><strong>Project structure:</strong> Separating concerns, writing testable functions. My first project that didn't feel like spaghetti.</li>
+                        <li><strong>Scope management:</strong> Saying no to features. Keeping it simple was harder than adding complexity.</li>
+                    </ul>
+                    
+                    <div class="reflection">
+                        <p>
+                            <strong>What I'd do differently:</strong> I hardcoded dates as strings instead of using Python's datetime 
+                            module properly. Halfway through the project I realized this made calculations messy. Learned the hard way 
+                            to use the right tools from the start.
+                        </p>
+                    </div>
+                    
+                    <div class="project-links">
+                        <span class="tag">Coming soon to GitHub</span>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-header">
+                        <h2 class="project-title">Markdown to HTML Converter</h2>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Regex</span>
+                            <span class="tag">Parsing</span>
+                        </div>
+                    </div>
+                    
+                    <p>
+                        A simple markdown parser that converts .md files to styled HTML. Supports headings, paragraphs, lists, 
+                        code blocks, and links. Built as a stepping stone toward my blog generator.
+                    </p>
+                    
+                    <h3>What I learned</h3>
+                    <ul>
+                        <li><strong>Regular expressions:</strong> Finally forced myself to learn regex properly. Still not fluent, but no longer terrified.</li>
+                        <li><strong>Parsing fundamentals:</strong> Line-by-line processing, state machines, edge cases. Turns out parsing is hard.</li>
+                        <li><strong>Testing mindset:</strong> Wrote test cases for different markdown patterns. My first project where I tested before submitting.</li>
+                    </ul>
+                    
+                    <div class="reflection">
+                        <p>
+                            <strong>Reality check:</strong> My parser breaks on nested lists and doesn't handle inline code properly. 
+                            I could fix it, but I realized it's "good enough" for my blog. Perfectionism is the enemy of shipping.
+                        </p>
+                    </div>
+                    
+                    <div class="project-links">
+                        <span class="tag">Learning project (not public yet)</span>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-header">
+                        <h2 class="project-title">Stanford Code in Place Final Project</h2>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Karel</span>
+                        </div>
+                    </div>
+                    
+                    <p>
+                        A quiz game built as my capstone for Stanford's Code in Place. Used Python dictionaries for questions, 
+                        random shuffling, and score tracking. My first "real" project that wasn't a tutorial follow-along.
+                    </p>
+                    
+                    <h3>What I learned</h3>
+                    <ul>
+                        <li><strong>Decomposition:</strong> Breaking a project into functions. This was the first time I really understood "top-down design."</li>
+                        <li><strong>User input validation:</strong> Handling unexpected input without crashing. Users will always do things you don't expect.</li>
+                        <li><strong>Comments and documentation:</strong> Writing code someone else could read (my section leader had to review it).</li>
+                    </ul>
+                    
+                    <div class="reflection">
+                        <p>
+                            <strong>Honest reflection:</strong> Looking back, the code is pretty rough. Lots of global variables, 
+                            repetitive logic, no error handling. But it <em>worked</em>, and I was proud of it. That counts for something.
+                        </p>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://codeinplace.stanford.edu/cip5/certificate/bzle5h" target="_blank" class="project-link">View certificate →</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Upcoming projects (what I want to build next)</h2>
+                <p>
+                    These are ideas I'm excited about. Some might happen, some might not. The goal is to build things that 
+                    challenge me just beyond my current skill level—not so easy that I coast, not so hard that I give up.
+                </p>
+                
+                <div class="card">
+                    <h3>Personal knowledge base / second brain</h3>
+                    <p>
+                        A local-first note-taking tool with markdown support and bidirectional links. Not trying to build Notion—just 
+                        a simple system to organize what I'm learning. Stretch goal: add spaced repetition for concepts I want to retain.
+                    </p>
+                    <p><strong>What I'll learn:</strong> File I/O, graph data structures (for linked notes), more Python.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Pomodoro timer with CLI stats</h3>
+                    <p>
+                        A terminal-based focus timer that tracks how I spend my time. Log what I worked on, generate daily/weekly reports, 
+                        identify patterns. Simple, personal, no distractions.
+                    </p>
+                    <p><strong>What I'll learn:</strong> Time handling, data visualization (maybe), building tools I'll actually use.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Contribute to open source</h3>
+                    <p>
+                        Not a project I'm building, but a goal. Find a beginner-friendly repo, fix a bug or improve documentation, 
+                        submit a PR. Terrifying, but necessary.
+                    </p>
+                    <p><strong>What I'll learn:</strong> Reading others' code, collaborating with Git, imposter syndrome exposure therapy.</p>
+                </div>
+            </section>
+
+            <div class="reflection">
+                <p>
+                    <strong>Note to self:</strong> It's okay if projects are unfinished. It's okay if they're rough. The goal isn't 
+                    perfection—it's learning. Each project is a snapshot of where I am right now. In six months I'll look back at 
+                    this code and cringe, and that's a good sign. It means I'm growing.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                Built with intention, not perfection. Last updated January 2025.<br>
+                <a href="index.html">Home</a> • <a href="now.html">See what I'm doing now</a> • <a href="struggling.html">What I'm struggling with</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
