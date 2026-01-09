@@ -1,0 +1,23 @@
+# Node modules (if blog generator dependencies are added)
+node_modules/
+package-lock.json
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+.cache/
+
+# Environment variables
+.env
+.env.local

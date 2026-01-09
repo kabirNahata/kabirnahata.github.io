@@ -1,0 +1,21 @@
+{
+  "name": "learning-journal",
+  "version": "1.0.0",
+  "description": "A calm, reflective learning journal documenting self-directed computer science education",
+  "main": "build-blog.js",
+  "scripts": {
+    "build": "node build-blog.js",
+    "dev": "node build-blog.js"
+  },
+  "keywords": [
+    "learning",
+    "blog",
+    "static-site",
+    "personal-website"
+  ],
+  "author": "Kabir Nahata",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

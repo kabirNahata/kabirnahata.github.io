@@ -1,74 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kabir Nahata – Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: auto;
-            padding: 40px;
-            line-height: 1.6;
-        }
-        h1 {
-            color: #007acc;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .button {
-            background-color: #007acc;
-            color: white;
-            padding: 10px 16px;
-            border: none;
-            border-radius: 5px;
-            margin-top: 20px;
-            display: inline-block;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kabir Nahata's learning journal — A 16-year-old's honest journey through self-directed computer science education.">
+    <title>Kabir Nahata — Learning Journal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, I'm Kabir 👋</h1>
-    <p>I'm a 16-year-old self-taught computer science learner from Nepal. This is my personal website where I document my journey, share projects, and blog about what I’m learning.</p>
-    
-    <h2>📘 My Blog</h2>
-    <p>
-        👉 Read my first blog post:  
-        <a href="first-blog.html" class="button">Why I’m Skipping +2</a>
-    </p>
+    <nav>
+        <div class="container wide">
+            <div class="logo">Kabir Nahata</div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="blog/index.html">Journal</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="now.html">Now</a></li>
+                <li><a href="struggling.html">Struggling</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <h2>📌 Connect with Me</h2>
-    <ul>
-        <li><a href="https://github.com/kabirNahata" target="_blank">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/kabirnahata" target="_blank">LinkedIn</a></li>
-    </ul>
-    <h2>📚 Courses & Certifications</h2>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Learning in public,<br>one day at a time.</h1>
+                <p class="intro">
+                    I'm a 16-year-old from Nepal choosing self-directed learning over traditional school. 
+                    This is my space to reflect, document, and share what I'm building—not to impress, 
+                    but to understand. No polish, just progress.
+                </p>
+            </div>
+        </section>
 
-    <div>
-        <h3>Stanford Code in Place 2025</h3>
-        <p>Completed an introductory Python programming course led by Stanford professors.</p>
-        <a href="https://codeinplace.stanford.edu/cip5/certificate/bzle5h" target="_blank">View Project/Certificate</a>
-    </div>
+        <!-- Journey Narrative -->
+        <section>
+            <div class="container">
+                <span class="section-label">Why I'm Here</span>
+                <h2>The path less traveled</h2>
+                <p>
+                    After completing SEE, I made an unconventional choice: skip +2 and teach myself computer science. 
+                    Not because I'm against formal education, but because I wanted freedom to learn deeply, 
+                    explore widely, and build things that matter to me.
+                </p>
+                <p>
+                    Most days, I feel behind. I see peers with structured curriculums while I'm piecing together 
+                    my own path through online courses, documentation, and trial-and-error. But I'm learning 
+                    that real understanding doesn't come from racing through content—it comes from sitting with confusion 
+                    until it becomes clarity.
+                </p>
+                <p>
+                    This journal isn't a highlight reel. It's an honest record of learning: the breakthroughs, 
+                    the dead ends, the concepts that click at 2 AM, and the ones that still don't make sense 
+                    after weeks. If you're also learning in the margins, maybe you'll find something here that resonates.
+                </p>
+            </div>
+        </section>
 
-    <div>
-        <h3>Supervised Machine Learning: Regression and Classification</h3>
-        <p>Learned basics of supervised ML, logistic regression, loss functions, and decision boundaries with Andrew Ng.</p>
-        <a href="https://coursera.org/share/4556745dff416b044a747064b75254ed" target="_blank">View Certificate</a>
-    </div>
+        <!-- Learning Pillars -->
+        <section>
+            <div class="container">
+                <span class="section-label">Guiding Principles</span>
+                <h2>How I'm learning</h2>
+                <div class="pillars">
+                    <div class="pillar">
+                        <h4>Depth over breadth</h4>
+                        <p>I'd rather understand one concept thoroughly than check off ten topics superficially. 
+                           It's slower, sometimes frustrating, but it sticks.</p>
+                    </div>
+                    <div class="pillar">
+                        <h4>Building as learning</h4>
+                        <p>The best way I learn is by breaking things and fixing them. Every project is a lesson 
+                           in disguise—even the ones that never get finished.</p>
+                    </div>
+                    <div class="pillar">
+                        <h4>Reflection compounds</h4>
+                        <p>Writing forces clarity. When I explain what I learned—or what confused me—I understand 
+                           it better. This journal is as much for me as anyone else.</p>
+                    </div>
+                    <div class="pillar">
+                        <h4>Struggling is part of it</h4>
+                        <p>I used to hide when I didn't understand something. Now I'm trying to be honest about 
+                           where I'm stuck. Growth lives in that discomfort.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div>
-        <h3>CS50x: Introduction to Computer Science</h3>
-        <p>Currently completing CS50 by Harvard, covering C, Python, web, and data structures.</p>
-        <a href="https://cs50.harvard.edu/x/" target="_blank">Course Page</a>
-    </div>
+        <!-- Course Reflections -->
+        <section>
+            <div class="container">
+                <span class="section-label">What I've Studied</span>
+                <h2>Courses & reflections</h2>
+                
+                <div class="card">
+                    <div class="meta">Completed • Winter 2025</div>
+                    <h3>CS50x: Introduction to Computer Science</h3>
+                    <p>
+                        Harvard's legendary intro course. What struck me most wasn't the languages (C, Python, SQL, JavaScript) 
+                        but how it taught me to <em>think</em> computationally. Weeks 3–5 (algorithms and memory) broke my brain 
+                        in the best way. I finally understood why pointers matter and how abstraction actually works.
+                    </p>
+                    <p>
+                        <strong>What I'm still wrestling with:</strong> Dynamic memory allocation. I can implement it, 
+                        but I don't yet have the intuition for when to use malloc vs. stack allocation in real scenarios.
+                    </p>
+                    <a href="https://cs50.harvard.edu/x/" target="_blank">Course page →</a>
+                </div>
 
+                <div class="card">
+                    <div class="meta">Completed • January 2025</div>
+                    <h3>Stanford Code in Place</h3>
+                    <p>
+                        My first formal programming course. Python basics, decomposition, and building something real 
+                        (my final project was a quiz game). The section groups felt like a tiny classroom, which I didn't 
+                        expect to value so much as a self-learner.
+                    </p>
+                    <p>
+                        <strong>Biggest takeaway:</strong> Programming isn't about memorizing syntax—it's about breaking 
+                        problems into smaller problems until they're trivial. That mindset shift changed everything.
+                    </p>
+                    <a href="https://codeinplace.stanford.edu/cip5/certificate/bzle5h" target="_blank">View certificate →</a>
+                </div>
 
-    <p>More coming soon! 🚀</p>
+                <div class="card">
+                    <div class="meta">Completed • Winter 2024</div>
+                    <h3>Supervised Machine Learning: Regression and Classification</h3>
+                    <p>
+                        Andrew Ng's course on Coursera. Learned the fundamentals: gradient descent, cost functions, 
+                        logistic regression. The math was intimidating at first, but implementing algorithms from scratch 
+                        in NumPy made it click. There's something magical about watching a model learn.
+                    </p>
+                    <p>
+                        <strong>Where I'm stuck:</strong> I can follow the derivations during lectures, but I can't yet 
+                        derive cost functions on my own. Need to spend more time with the linear algebra.
+                    </p>
+                    <a href="https://coursera.org/share/4556745dff416b044a747064b75254ed" target="_blank">View certificate →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- What I'm Struggling With Excerpt -->
+        <section>
+            <div class="container">
+                <span class="section-label">Honest Reflections</span>
+                <h2>What I'm struggling with right now</h2>
+                <div class="reflection">
+                    <p>
+                        <strong>Imposter syndrome is loud this week.</strong> I spent three days debugging a segmentation 
+                        fault in a C program only to realize I was freeing memory twice. Three days. Meanwhile, 
+                        I see people on Twitter casually shipping production ML models. The comparison trap is real.
+                    </p>
+                    <p>
+                        I'm also realizing how much I <em>don't</em> know about data structures. I can implement a linked 
+                        list, but ask me when to use one over an array in production? I'm guessing. Textbook knowledge 
+                        vs. practical intuition—that gap feels huge right now.
+                    </p>
+                </div>
+                <p>
+                    <a href="struggling.html" class="cta-secondary">Read more honest struggles →</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Recent Writings -->
+        <section>
+            <div class="container">
+                <span class="section-label">Recent Writing</span>
+                <h2>From the journal</h2>
+                <ul class="post-list">
+                    <li>
+                        <h3 class="post-title">
+                            <a href="blog/why-im-skipping-plus-two.html">Why I'm skipping +2 to learn computer science</a>
+                        </h3>
+                        <p class="post-excerpt">
+                            The story of why I chose self-directed learning over traditional school—and what I'm 
+                            learning about myself in the process.
+                        </p>
+                        <div class="post-meta">July 2025</div>
+                    </li>
+                </ul>
+                <p>
+                    <a href="blog/index.html">View all entries →</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Connect -->
+        <section>
+            <div class="container">
+                <span class="section-label">Let's Connect</span>
+                <h2>Where to find me</h2>
+                <p>
+                    I'm most active on GitHub (where I push code daily) and LinkedIn (where I share what I'm learning). 
+                    If something I wrote resonated, or if you're on a similar path, I'd love to hear from you.
+                </p>
+                <ul>
+                    <li><a href="https://github.com/kabirNahata" target="_blank">GitHub</a> — Code, projects, experiments</li>
+                    <li><a href="https://www.linkedin.com/in/kabirnahata" target="_blank">LinkedIn</a> — Learning updates</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                Built with intention, not perfection. Last updated January 2025.<br>
+                <a href="now.html">See what I'm doing now</a> • <a href="struggling.html">What I'm struggling with</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
